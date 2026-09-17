@@ -8,6 +8,7 @@ SQL analysis and Tableau dashboards based on Greater Boston Bluebikes trip data 
 
 Bluebikes publishes trip-level data each month. I combined the twelve 2025 files in PostgreSQL and analyzed how ridership changes over time, how members and casual riders use the system differently, and which stations and routes receive the most traffic. I then built two Tableau dashboards to present the results.
 
+
 ## Questions Explored
 
 - When is Bluebikes demand highest during the year and throughout the day?
@@ -28,9 +29,13 @@ Records with an end time earlier than or equal to the start time were excluded f
 
 The first dashboard summarizes total rides, member share, average daily rides, and active stations. It also shows monthly and hourly trends, demand by day and hour, and median trip duration by customer and bike type.
 
+![Ridership Overview Dashboard](images/ridership-overview.png)
+
 ### Station Analysis
 
 The second dashboard focuses on the station network. It includes the top starting stations, a map of station demand, and the most frequently traveled directional routes. The customer type filter updates the station ranking and map.
+
+![Station Analysis Dashboard](images/station-analysis.png)
 
 ## Key Findings
 
