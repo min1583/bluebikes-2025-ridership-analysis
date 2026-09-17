@@ -21,7 +21,7 @@ Bluebikes publishes trip-level data each month. I combined the twelve 2025 files
 
 The dashboard contains 4,614,267 trips. Before building the visualizations, I checked ride IDs for duplicates, reviewed missing station fields, and created the time and duration fields needed for analysis.
 
-Records with an end time earlier than or equal to the start time were excluded from trip-duration calculations only. Trips without the required station names were excluded from route-level analysis. Routes are directional, meaning Station A to Station B and Station B to Station A are counted separately.
+Records with non-positive durations, along with trips longer than 24 hours and no recorded end station, were excluded from duration analysis. Trips without the required station names were excluded from route level analysis. Routes are directional, meaning Station A to Station B and Station B to Station A are counted separately.
 
 ## Dashboards
 
