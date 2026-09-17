@@ -30,9 +30,11 @@ Records with an end time earlier than or equal to the start time were excluded f
 The first dashboard summarizes total rides, member share, average daily rides, and active stations. It also shows monthly and hourly trends, demand by day and hour, and median trip duration by customer and bike type.
 
 ![Ridership Overview Dashboard](images/ridership_overview.png)
+
 ### Station Analysis
 
 The second dashboard focuses on the station network. It includes the top starting stations, a map of station demand, and the most frequently traveled directional routes. The customer type filter updates the station ranking and map.
+
 ![Station Analysis Dashboard](images/station_analysis.png)
 
 ## Key Findings
